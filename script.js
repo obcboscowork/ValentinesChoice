@@ -13,7 +13,7 @@ noBtn.style.transform=`translate(${Math.random()*200-100}px,${Math.random()*200-
 
 yesBtn.addEventListener("click",()=>{
 const name=nameInput.value||"My Love";
-message.innerHTML=`Yayyy ${name}! 💖🥰`;
+message.innerHTML=`Yayyy ${BUBUU}! I knew you'd say YESS 💖🥰`;
 cat.src="./cat-heart.gif";
 music.play();
 launchConfetti();
@@ -64,3 +64,4 @@ copyBtn.addEventListener("click",()=>{
 navigator.clipboard.writeText(window.location.href);
 copyBtn.innerText="Link Copied! 💌";
 });
+
